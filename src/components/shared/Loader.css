@@ -1,0 +1,35 @@
+.loading svg polyline {
+	fill: none;
+	stroke-width: 3;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
+
+.loading svg polyline#back {
+	fill: none;
+	stroke: #ddd;
+}
+
+.loading svg polyline#front {
+	fill: none;
+	stroke: #3498db;
+	stroke-dasharray: 48, 144;
+	stroke-dashoffset: 192;
+	animation: dash 1.4s linear infinite;
+}
+
+.dark .loading svg polyline#back {
+	fill: none;
+	stroke: #333;
+}
+
+
+@keyframes dash {
+	72.5% {
+		opacity: 0.3;
+	}
+
+	to {
+		stroke-dashoffset: 0;
+	}
+}

@@ -1,0 +1,334 @@
+/* .papel {
+    
+    width: 100%;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.793);
+    z-index: 999;
+} */
+
+.guia {
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	z-index: 9;
+	overflow: hidden;
+	max-height: 1360px;
+}
+
+.papel img {
+	width: 1000px;
+	height: 1400px;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 0px;
+}
+
+.dados {
+	width: 1000px;
+	height: max-content;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	top: -1319px;
+	border: 1px solid rgba(65, 255, 1, 0);
+}
+
+.dados p {
+	max-height: 18px;
+	min-height: 18px;
+	margin: 14px 0;
+	margin-left: 50px;
+	padding-left: 5px;
+	width: 100px;
+	z-index: 1;
+	text-transform: capitalize;
+}
+
+p#guia {
+	position: relative;
+	left: 190px;
+	width: 475px;
+	top: 0px;
+}
+
+p#dataAut {
+	position: relative;
+	top: 15px;
+	width: 210px;
+}
+
+p#senha {
+	position: relative;
+	top: -17px;
+	left: 226px;
+	width: 417px;
+}
+
+p#carteira {
+	position: relative;
+	width: 410px;
+	top: 15px;
+}
+
+p#nome {
+	position: relative;
+	top: 28px;
+	width: 555px;
+}
+
+p#cnpj1 {
+	position: relative;
+	top: 62px;
+	width: 290px;
+}
+
+p#contratado1 {
+	position: relative;
+	left: 307px;
+	top: 30px;
+	width: 580px;
+}
+
+p#medico {
+	position: relative;
+	top: 55px;
+	width: 310px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+p#conselho {
+	position: relative;
+	left: 330px;
+	top: 25px;
+	width: 68px;
+	text-align: center;
+}
+
+p#crm {
+	position: relative;
+	top: -7px;
+	left: 422px;
+	width: 288px;
+}
+
+p#uf {
+	position: relative;
+	width: 30px;
+	top: -40px;
+	left: 733px;
+	text-align: center;
+}
+
+p#cbo {
+	position: relative;
+	left: 793px;
+	top: -72px;
+	width: 97px;
+}
+
+p#cnpj2 {
+	position: relative;
+	top: -29px;
+	width: 290px;
+}
+
+p#contratado2 {
+	position: relative;
+	top: -62px;
+	left: 309px;
+	width: 360px;
+}
+
+p#carater {
+	display: inline-block;
+	position: relative;
+	top: -76px;
+	width: 123px;
+	text-align: center;
+}
+
+p#tipo {
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	top: -76px;
+	left: -18px;
+	width: 92px;
+}
+
+p#regime {
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	top: -76px;
+	left: -16px;
+	width: 52px;
+}
+
+p#diariaSol {
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	top: -76px;
+	left: 8px;
+	width: 74px;
+}
+
+p#opme {
+	display: inline;
+	top: -77px;
+	left: 67px;
+	/* width: 100px; */
+	position: relative;
+}
+
+#anexo {
+	width: 895px;
+	max-height: none;
+	height: 170px;
+	padding: 0 0 0 5px;
+	margin: 11px 0 0 50px;
+	position: relative;
+	top: -70px;
+	text-transform: none;
+	text-overflow: wrap;
+	font-size: 14px;
+	color: #000;
+	resize: none;
+	background: white;
+	border: none;
+	overflow: hidden;
+}
+
+p#cid {
+	background: none;
+	position: relative;
+	top: -46px;
+	width: 113px;
+	text-align: center;
+}
+
+.tuss {
+	background: #fff;
+	width: 868px;
+	height: 235px;
+	position: relative;
+	top: -10px;
+	left: 68px;
+	display: grid;
+	grid-template-columns: 50px 180px 470px 80px 80px;
+}
+
+.tabela p {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+
+.codigos p {
+	margin: 0;
+	padding: 0;
+}
+
+.descricao p {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.quantidade p {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+.quantidadeAut p {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	text-align: center;
+}
+
+#diariaAut {
+	position: relative;
+	top: 23px;
+	left: 232px;
+	text-align: center;
+}
+
+#leito {
+	position: relative;
+	top: -10px;
+	left: 479px;
+}
+
+#cnpj3 {
+	width: 240px;
+	position: relative;
+	top: 3px;
+	left: -3px;
+}
+
+#contratado3 {
+	width: 515px;
+	position: relative;
+	top: -29px;
+	left: 252px;
+}
+
+#dataSol {
+	position: relative;
+	top: 62px;
+	width: 181px;
+	left: -3px;
+}
+
+#obs {
+    position: relative;
+    top: -115px;
+    left: 50px;
+    width: 898px;
+    height: 50px;
+    max-height: 50px;
+    text-transform: none;
+    overflow: hidden;
+	background: transparent;
+	resize: none;
+}
+
+#logoImage {
+	background: #fff;
+	position: relative;
+	top: -1250px;
+	width: 200px;
+	height: 67px;
+	left: 46px;
+}
+
+#logo {
+	width: 100%;
+	height: 100%;
+}
+
+@media print {
+	.guia {
+		top: 0;
+		left: 0;
+		transform: translateX(0);
+		border: none;
+	}
+}
