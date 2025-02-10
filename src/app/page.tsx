@@ -84,13 +84,13 @@ const Home = () => {
 					<label htmlFor='login' className='text-muted-foreground'>
 						Login
 					</label>
-					<Input className='w-60' type='text' id='login' {...register('login')} />
+					<Input className='w-60' type='text' id='login' defaultValue='admin' {...register('login')} />
 				</div>
 				<div className=''>
 					<label htmlFor='password' className='text-muted-foreground'>
 						Senha
 					</label>
-					<Input type='password' id='password' {...register('password')} />
+					<Input type='password' id='password' defaultValue='123' {...register('password')} />
 				</div>
 				<p className='text-center text-destructive'>{alert}</p>
 				{!loading && <Button type='submit'>Entrar</Button>}
